@@ -1,0 +1,120 @@
+65 [21708] INFO perfrun.launcher <> - Launcher main begin
+69 [21708] INFO perfrun.launcher <> - MessageCatalogInit finished
+69 [21708] INFO perfrun.launcher <> - Launcher instance created
+69 [21708] INFO perfrun.launcher <> - argc = 7; cmdline = C:\Program Files (x86)\Intel\oneAPI\vtune\2023.0.0\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 1400 --option-file C:\Users\germa\source\repos\Project3\Project3\VTune Profiler Results\Project3\r047ps\config\runsa.options 
+121 [21708] INFO perfrun.launcher <> - New signal handler callback was added
+162 [21708] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+162 [21708] INFO perfrun.launcher <> - create file finder object
+162 [21708] INFO perfrun.launcher <> - create a result directory: pattern = C:\Users\germa\source\repos\Project3\Project3\VTune Profiler Results\Project3\r047ps pid = 4294967295
+167 [21708] INFO perfrun.launcher <> - create data directory = C:\Users\germa\source\repos\Project3\Project3\VTune Profiler Results\Project3\r047ps\data.0
+168 [21708] INFO perfrun.launcher <> - Creating the master collection flag
+176 [21708] INFO perfrun.launcher <> - Done creating the master collection flag
+176 [44428] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+176 [44428] INFO perfrun.sdk <> - Allocating TMU :C:\Users\germa\source\repos\Project3\Project3\VTune Profiler Results\Project3\r047ps\data.0\systemcollector-29360-DESKTOP-JB6HC7R.sc
+176 [44428] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+176 [44428] INFO perfrun.launcher <> - plugin [itt] was disabled because it doesn't support the given collection type.
+176 [44428] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+176 [44428] INFO perfrun.gpu <> - Event consumer configurations: 
+185 [44428] INFO perfrun.gpu <> - DeviceInfo: address 0:0:2.0 subdevice index 0 preset 2 sampling interval 1000us
+185 [44428] INFO perfrun.gpu <> -  counting mode enabled
+185 [44428] INFO perfrun.launcher <> - plugin [etw.kernel] was disabled because it doesn't support the given collection type.
+185 [44428] INFO perfrun.launcher <> - plugin [etw.dx] was disabled because it doesn't support the given collection type.
+185 [44428] INFO perfrun.launcher <> - plugin [etw.wsa] was disabled because it doesn't support the given collection type.
+185 [44428] INFO perfrun.mrte <> - system-wide mode is 0
+185 [44428] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+206 [44428] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=C:\Users\germa\source\repos\Project3\Project3\VTune Profiler Results\Project3\r047ps\data.0
+206 [44428] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=DESKTOP-JB6HC7R
+206 [44428] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_samplingmrte_javaprof_1.0
+206 [44428] INFO perfrun.mrte <> - PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\2023.0.0\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2023.0.0\bin64\runtime;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\MATLAB\bin;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Ghdl\Bin;C:\Program Files\Git\cmd;C:\Users\germa\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\germa\AppData\Local\Programs\Python\Python310\;C:\Users\germa\AppData\Local\Microsoft\WindowsApps;C:\Users\germa\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\germa\.dotnet\tools;C:\Users\germa\AppData\Local\Programs\Microsoft VS Code\bin;C:\eda\Ghdl\bin;C:\eda\gtkwave\bin
+206 [44428] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+206 [44428] INFO perfrun.mrte <> - COR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+206 [44428] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+206 [44428] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+206 [44428] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+206 [44428] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\2023.0.0\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+206 [44428] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+206 [44428] INFO perfrun.mrte <> - Data directory: C:\Users\germa\source\repos\Project3\Project3\VTune Profiler Results\Project3\r047ps\data.0
+206 [44428] INFO perfrun.mrte <> - Mrte plugin is initialized
+206 [44428] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+206 [44428] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+206 [44428] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+206 [44428] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+206 [44428] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+206 [44428] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+206 [44428] INFO perfrun.tpss <> - initialize tpss controller
+206 [44428] INFO perfrun.launcher <> - plugin [tpss] was disabled because it doesn't support the given collection type.
+206 [44428] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+206 [44428] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+206 [44428] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+206 [44428] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+206 [44428] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+206 [44428] INFO perfrun.launcher <> - plugin [hwloc] was disabled because it doesn't support the given collection type.
+206 [44428] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+206 [44428] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+206 [44428] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+207 [21708] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = C:\Users\germa\source\repos\Project3\Project3\VTune Profiler Results\Project3\r047ps\data.0
+207 [21708] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = DESKTOP-JB6HC7R
+207 [21708] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_samplingmrte_javaprof_1.0
+207 [21708] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2023.0.0\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2023.0.0\bin64\runtime;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\MATLAB\bin;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Ghdl\Bin;C:\Program Files\Git\cmd;C:\Users\germa\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\germa\AppData\Local\Programs\Python\Python310\;C:\Users\germa\AppData\Local\Microsoft\WindowsApps;C:\Users\germa\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\germa\.dotnet\tools;C:\Users\germa\AppData\Local\Programs\Microsoft VS Code\bin;C:\eda\Ghdl\bin;C:\eda\gtkwave\bin
+207 [21708] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+207 [21708] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+207 [21708] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+207 [21708] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+208 [21708] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+208 [21708] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2023.0.0\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+208 [21708] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+208 [21708] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+211 [21708] INFO perfrun.sdk <> - IProcessUtil: the given executable 'C:\Users\germa\source\repos\Project3\Debug\Project3.exe' is valid.
+211 [21708] INFO perfrun.launcher <> - Launcher: command line to start before modification = C:\Users\germa\source\repos\Project3\Debug\Project3.exe
+212 [21708] INFO perfrun.launcher <> - Launcher: command line to start after modification = C:\Users\germa\source\repos\Project3\Debug\Project3.exe
+212 [21708] INFO perfrun.launcher <> - ProcessCreator object was created
+214 [21708] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+214 [44428] INFO perfrun.launcher <> - Messenger::say: Peak bandwidth measurement started.
+4359 [44428] INFO perfrun.launcher <> - Messenger::say: Peak bandwidth measurement finished.
+4375 [44428] INFO perfrun.sdk <> - Allocating TMU :C:\Users\germa\source\repos\Project3\Project3\VTune Profiler Results\Project3\r047ps\data.0\gen_metrics0_0_2_0_0.0.cfg
+4375 [44428] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\germa\source\repos\Project3\Project3\VTune Profiler Results\Project3\r047ps\data.0\gen_metrics0_0_2_0_0.0.cfg
+4387 [44428] INFO perfrun.gpu <> - GPU counting mode: initialization successful
+4388 [44428] INFO perfrun.gpu <> - Creating main data processing loop
+4388 [19488] INFO perfrun.sdk <> - Allocating TMU :C:\Users\germa\source\repos\Project3\Project3\VTune Profiler Results\Project3\r047ps\data.0\gen_metrics0_0_2_0_0.0.vtss
+4389 [19488] INFO perfrun.gpu <> - IO stream opening, timer period: 1000000, buffer size: 0 subDevice 0 tile 0
+4389 [44428] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2023.0.0\bin64\emon.exe" -M
+4391 [19488] INFO perfrun.gpu <> - IO stream opened, timer period: 682666, buffer size: 16777216
+4391 [44428] INFO perfrun.sdk <> - runCmd started PID 34428
+4431 [44428] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2023.0.0\bin64\emon.exe" -v
+4432 [44428] INFO perfrun.sdk <> - runCmd started PID 5960
+4486 [44428] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2023.0.0\bin64\sep.exe" -dry-run -ec CPU_CLK_UNHALTED.THREAD:sa=2800000,CPU_CLK_UNHALTED.REF_TSC:sample:sa=2800000,INST_RETIRED.ANY:sample:sa=2800000,CPU_CLK_UNHALTED.DISTRIBUTED:sa=2800000,TOPDOWN.SLOTS:sample:sa=2000003,UOPS_RETIRED.SLOTS:sample:sa=2000003,FP_ARITH_INST_RETIRED.SCALAR_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE:sa=2000003,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE:sa=2000003,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE:sa=2000003,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE:sa=2000003,UOPS_EXECUTED.X87:sa=2000003,UOPS_EXECUTED.THREAD:sa=2000003,FP_ARITH_INST_RETIRED.512B_PACKED_DOUBLE:sa=2000003,FP_ARITH_INST_RETIRED.512B_PACKED_SINGLE:sa=2000003,CPU_CLK_UNHALTED.THREAD_P,CYCLE_ACTIVITY.STALLS_L1D_MISS,CYCLE_ACTIVITY.STALLS_L2_MISS,CYCLE_ACTIVITY.STALLS_L3_MISS,CYCLE_ACTIVITY.STALLS_MEM_ANY,CYCLE_ACTIVITY.STALLS_TOTAL,EXE_ACTIVITY.1_PORTS_UTIL,EXE_ACTIVITY.2_PORTS_UTIL,EXE_ACTIVITY.BOUND_ON_STORES,FRONTEND_RETIRED.LATENCY_GE_4,IDQ_UOPS_NOT_DELIVERED.CORE,INT_MISC.RECOVERY_CYCLES:cmask=1:e=yes,INT_MISC.UOP_DROPPING,L1D_PEND_MISS.FB_FULL_PERIODS,MEM_LOAD_RETIRED.FB_HIT,MEM_LOAD_RETIRED.L1_HIT,MEM_LOAD_RETIRED.L1_MISS,MEM_LOAD_RETIRED.L2_HIT,MEM_LOAD_RETIRED.L3_HIT,MEM_LOAD_RETIRED.L3_MISS,OFFCORE_REQUESTS_OUTSTANDING.ALL_DATA_RD:cmask=4,OFFCORE_REQUESTS_OUTSTANDING.CYCLES_WITH_DATA_RD,TOPDOWN.BACKEND_BOUND_SLOTS,MEM_INST_RETIRED.ALL_STORES:sa=100003,MEM_INST_RETIRED.ALL_LOADS:sa=100003,UNC_IMC_DRAM_DATA_READS,UNC_IMC_DRAM_DATA_WRITES -experimental
+4488 [44428] INFO perfrun.sdk <> - runCmd started PID 42816
+4549 [44428] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2023.0.0\bin64\emon.exe" -u -t 0.010 -l0 -A -C CPU_CLK_UNHALTED.DISTRIBUTED,CPU_CLK_UNHALTED.REF_TSC,CPU_CLK_UNHALTED.THREAD,CPU_CLK_UNHALTED.THREAD_P,CYCLE_ACTIVITY.STALLS_L1D_MISS,CYCLE_ACTIVITY.STALLS_L2_MISS,CYCLE_ACTIVITY.STALLS_L3_MISS,CYCLE_ACTIVITY.STALLS_MEM_ANY,CYCLE_ACTIVITY.STALLS_TOTAL,EXE_ACTIVITY.1_PORTS_UTIL,EXE_ACTIVITY.2_PORTS_UTIL,EXE_ACTIVITY.BOUND_ON_STORES,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.512B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.512B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE,FP_ARITH_INST_RETIRED.SCALAR_SINGLE,FRONTEND_RETIRED.LATENCY_GE_4,IDQ_UOPS_NOT_DELIVERED.CORE,INST_RETIRED.ANY,INT_MISC.RECOVERY_CYCLES:c1:e1,INT_MISC.UOP_DROPPING,L1D_PEND_MISS.FB_FULL_PERIODS,MEM_INST_RETIRED.ALL_LOADS,MEM_INST_RETIRED.ALL_STORES,MEM_LOAD_RETIRED.FB_HIT,MEM_LOAD_RETIRED.L1_HIT,MEM_LOAD_RETIRED.L1_MISS,MEM_LOAD_RETIRED.L2_HIT,MEM_LOAD_RETIRED.L3_HIT,MEM_LOAD_RETIRED.L3_MISS,OFFCORE_REQUESTS_OUTSTANDING.ALL_DATA_RD:c4,OFFCORE_REQUESTS_OUTSTANDING.CYCLES_WITH_DATA_RD,TOPDOWN.BACKEND_BOUND_SLOTS,TOPDOWN.SLOTS,UNC_IMC_DRAM_DATA_READS,UNC_IMC_DRAM_DATA_WRITES,UOPS_EXECUTED.THREAD,UOPS_EXECUTED.X87,UOPS_RETIRED.SLOTS -f "C:\Users\germa\source\repos\Project3\Project3\VTune Profiler Results\Project3\r047ps\data.0\emon.0.emon" -experimental
+4551 [44428] INFO perfrun.sdk <> - runCmd started PID 20068
+4551 [44428] INFO perfrun.emon <> - Waiting trace file creation: C:\Users\germa\source\repos\Project3\Project3\VTune Profiler Results\Project3\r047ps\data.0\emon.0.emon
+4760 [44428] INFO perfrun.emon <> - trace file was found
+4760 [21708] INFO perfrun.launcher <> - Launcher: all plugins were started
+4760 [21708] INFO perfrun.launcher <> - DirectoryMonitor object was created
+4760 [21708] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+4760 [21708] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+4760 [21708] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+4761 [21708] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+4774 [21708] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+4899 [19488] INFO perfrun.gpu <> - Next report we'll be handling the low-power state
+4900 [19488] INFO perfrun.gpu <> - Entered handling of low-power state
+5070 [21708] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+5077 [44428] INFO perfrun.gpu <> - Waiting for data collection thread to finish
+5414 [19488] INFO perfrun.gpu <> - Writing dual vector buffer
+5414 [19488] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\germa\source\repos\Project3\Project3\VTune Profiler Results\Project3\r047ps\data.0\gen_metrics0_0_2_0_0.0.vtss
+5431 [19488] INFO perfrun.gpu <> - Data collection routine finished
+5434 [44428] INFO perfrun.gpu <> - Data collection thread finished, shutting down the session
+5435 [44428] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2023.0.0\bin64\emon.exe" -stop
+5437 [44428] INFO perfrun.sdk <> - runCmd started PID 28384
+5610 [44428] INFO perfrun.emon <> - EMON collector successfully stopped.
+
+5610 [44428] INFO perfrun.emon <> - Waiting for main Emon process (20068) to finish...
+5610 [44428] INFO perfrun.emon <> - Main Emon process finished
+5611 [44428] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\germa\source\repos\Project3\Project3\VTune Profiler Results\Project3\r047ps\data.0\systemcollector-29360-DESKTOP-JB6HC7R.sc
+5632 [44428] INFO perfrun.system <> - closed the system trace file: C:\Users\germa\source\repos\Project3\Project3\VTune Profiler Results\Project3\r047ps\data.0\systemcollector-29360-DESKTOP-JB6HC7R.sc
+5632 [21708] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+5632 [21708] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+5632 [21708] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+5633 [21708] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+5633 [21708] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: C:\BB\ANphep2w6r\b\tmp2iy5aj\vcs\perfrun1\launcher\src\command_handler.cpp:226
+5634 [21708] INFO perfrun.launcher <> - Application exit code: 0
+5634 [21708] INFO perfrun.launcher <> - Exit code: 0

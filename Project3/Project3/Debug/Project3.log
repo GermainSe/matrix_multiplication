@@ -1,0 +1,16 @@
+﻿  Quelle1.cpp
+C:\Users\germa\source\repos\Project3\Project3\Quelle1.cpp(76,41): warning C4556: Der Wert des systeminternen unmittelbaren Arguments "262208" liegt außerhalb des gültigen Bereichs "0 - 255"
+C:\Users\germa\source\repos\Project3\Project3\Quelle1.cpp(78,41): warning C4556: Der Wert des systeminternen unmittelbaren Arguments "10100100" liegt außerhalb des gültigen Bereichs "0 - 255"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(4528,27): warning C4244: "=": Konvertierung von "const _Ty" in "float", möglicher Datenverlust
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\germa\source\repos\Project3\Project3\Quelle1.cpp(197): message : Siehe Verweis auf die gerade kompilierte Instanziierung "_OutIt *std::fill_n<float*,int,int>(_OutIt,const _Diff,const _Ty &)" der Funktions-Vorlage.
+          with
+          [
+              _OutIt=float *,
+              _Diff=int,
+              _Ty=int
+          ]
+  Project3.vcxproj -> C:\Users\germa\source\repos\Project3\Debug\Project3.exe
